@@ -1,5 +1,5 @@
 # ESP32 AQI Monitor (PMS3002)
-A simple **ESP32-based Air Quality Index (AQI) monitor** using the **Plantower PMS3002** particulate matter sensor and **ESP32 CYD 2.8" TFT Display**. The project reads PM1.0, PM2.5, and PM10 concentrations from the sensor, calculates AQI based on **US EPA** or **China MEP** standards, and displays the result with a color-coded air quality category.
+A simple **ESP32-based Air Quality Index (AQI) monitor** using **ESP32 CYD 2.8" TFT Display** and **Plantower PMS3002** particulate matter sensor. The project reads PM1.0, PM2.5, and PM10 concentrations from the sensor, calculates AQI based on **US EPA** or **China MEP** standards, and displays the result with a color-coded air quality category.
 
 ## Features
 - Real-time PM1.0, PM2.5, and PM10 readings.
