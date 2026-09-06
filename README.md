@@ -57,7 +57,7 @@ Press the tack switch button to switch between US and China AQI calculation.
 | 201–300 | 🟣 Very Unhealthy |
 | 301–500 | ⚫ Hazardous |
 
-## Example output:
+## Example output
 ```text
 [BIG DISPLAY] AQI:57
 [DESCRIPTION] Moderate
@@ -72,7 +72,7 @@ Fields include:
   - Particle counts for 0.3–10 µm.
 
 
-## Snapshot:
+## Snapshot
 ![Snapshot](https://github.com/ilyanto/esp32_aqi/blob/main/snapshot.jpg)
 ## License
 This project is licensed under the **MIT License**.
