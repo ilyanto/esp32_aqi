@@ -8,7 +8,7 @@ A simple **ESP32-based Air Quality Index (AQI) monitor** using **ESP32 CYD 2.8" 
   - **China AQI**
 - Display on TFT LCD.
 - Displays as: particle counts (0.3–10 µm) and region index (with color).
-- Uses **LittleFS** (microSD) to load custom TFT fonts.
+- Uses **LittleFS** to load custom TFT fonts.
 
 ## Hardware
 | Component | Notes |
@@ -71,9 +71,15 @@ Fields include:
 - Line 2:
   - Particle counts for 0.3–10 µm.
 
-
 ## Snapshot
 ![Snapshot](https://github.com/ilyanto/esp32_aqi/blob/main/snapshot.jpg)
+
+## How to install
+- Prerequisite: Must have a LittleFS partition.
+- Compile the binary and flash it to the ESP32.
+- Upload the data to LittleFS.
+  ctrl+shift+p > upload littlefs to esp32
+
 ## License
 This project is licensed under the **MIT License**.
 
