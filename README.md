@@ -77,8 +77,8 @@ Fields include:
 ## How to install
 - Prerequisite: Must have a LittleFS partition.
 - Compile the binary and flash it to the ESP32.
-- Upload the data to LittleFS.
-  ctrl+shift+p > upload littlefs to esp32
+- Upload the file(s) in data folder to LittleFS partition.
+  ctrl+shift+p > Upload LittleFS to ESP32
 
 ## License
 This project is licensed under the **MIT License**.
