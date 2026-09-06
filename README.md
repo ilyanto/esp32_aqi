@@ -61,18 +61,21 @@ Press the tack switch button to switch between US and China AQI calculation.
 ```text
 [BIG DISPLAY] AQI:57
 [DESCRIPTION] Moderate
-[SENSOR:INFO1] US PM1:8|8 PM2.5:14|15 PM10:18|19 µg/m3
-[SENSOR:INFO1] 0.3:523 0.5:210 10:54 25:12 50:2 100:0 µm
+[INFO LINE1] US PM1:8|8 PM2.5:14|15 PM10:18|19 µg/m3
+[INFO LINE2] 0.3:523 0.5:210 10:54 25:12 50:2 100:0 µm
 ```
 Fields include:
 - Line 1:
-  - US/CN Index
+  - US/CN AQI Index
   - PM1.0 (CF=1 / Atm), PM2.5 (CF=1 / Atm), PM10 (CF=1 / Atm).
 - Line 2:
   - Particle counts for 0.3–10 µm.
 
+
+## Snapshot:
 ![Snapshot](https://github.com/ilyanto/esp32_aqi/blob/main/snapshot.jpg)
 ## License
 This project is licensed under the **MIT License**.
 
 See the `LICENSE` file for details.
+Email: ilyanto.radikiya@gmail.com for questions or more details.
