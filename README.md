@@ -41,7 +41,7 @@ A simple **ESP32-based Air Quality Index (AQI) monitor** using **ESP32 CYD 2.8" 
 This project uses the **TFT_eSPI** library. Configure your display driver and pin mapping inside the TFT_eSPI `User_Setup.h` (or custom setup file) before compiling. Default `User_Setup.h` at the source code is for CYD 2.8" TFT Display.
 
 ## AQI Calculation
-AQI is calculated from the **PM2.5 atmospheric concentration** reported by the PMS3002.
+AQI is calculated from the **PM2.5 atmospheric concentration** reported by the PMS5003.
 
 ### Supported Standards
 | Region | Description |
