@@ -1,5 +1,5 @@
-# ESP32 AQI Monitor (PMS3002)
-A simple **ESP32-based Air Quality Index (AQI) monitor** using **ESP32 CYD 2.8" TFT Display** and **Plantower PMS3002** particulate matter sensor. The project reads PM1.0, PM2.5, and PM10 concentrations from the sensor, calculates AQI based on **US EPA** or **China MEP** standards, and displays the result with a color-coded air quality category.
+# ESP32 AQI Monitor (PMS5003)
+A simple **ESP32-based Air Quality Index (AQI) monitor** using **ESP32 CYD 2.8" TFT Display** and **Plantower PMS5003** particulate matter sensor. The project reads PM1.0, PM2.5, and PM10 concentrations from the sensor, calculates AQI based on **US EPA** or **China MEP** standards, and displays the result with a color-coded air quality category.
 
 ## Features
 - Real-time PM1.0, PM2.5, and PM10 readings.
@@ -14,21 +14,22 @@ A simple **ESP32-based Air Quality Index (AQI) monitor** using **ESP32 CYD 2.8" 
 | Component | Notes |
 |----------|-------|
 | ESP32 CYD 2.8" TFT Display | Use this device for seamless installation |
-| Plantower PMS3002 | UART particulate matter sensor |
+| Plantower PMS5003 | UART particulate matter sensor |
+| MT3608 DC-DC Step Up Power Booster | Set to 5V |
 | Momentary/Tack Switch | To switch AQI region (US/CN) |
 | 5V Power Supply | Or common USB power source |
 
 ## Wiring
-### PMS3002 → ESP32
-| PMS3002 | ESP32 |
+### PMS5003 → ESP32
+| PMS5003 | ESP32 |
 |---------|-------|
 | VCC | 5V |
 | GND | GND |
-| TX | GPIO 27 (RX2) |
-| RX | GPIO 22 (TX2) |
+| TX | GPIO 27 |
+| RX | GPIO 22 |
 
-### Button (to change AQI calculation, press 2 second to change)
-| Button | ESP32 |
+### Switch (to change AQI calculation, press 2 second to change)
+| Switch | ESP32 |
 |--------|-------|
 | One side | GPIO 22 |
 | Other side | GND |
