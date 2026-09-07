@@ -76,7 +76,7 @@ Fields include:
   - Particle counts for 0.3–10 µm.
 
 ## Snapshot
-![Snapshot](https://github.com/ilyanto/esp32_aqi/blob/main/snapshot.png)
+![Snapshot](https://github.com/ilyanto/esp32_aqi/blob/main/snapshot.jpg)
 
 ## How to install
 - Prerequisite: Must have a LittleFS partition.
