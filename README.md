@@ -15,7 +15,6 @@ A simple **ESP32-based Air Quality Index (AQI) monitor** using **ESP32 CYD 2.8" 
 |----------|-------|
 | ESP32 CYD 2.8" TFT Display | Use this device for seamless installation |
 | Plantower PMS5003 | UART particulate matter sensor |
-| MT3608 DC-DC Step Up Power Booster | Set to 5V |
 | Momentary/Tack Switch | To switch AQI region (US/CN) |
 | 5V Power Supply | Or common USB power source |
 
@@ -25,13 +24,13 @@ A simple **ESP32-based Air Quality Index (AQI) monitor** using **ESP32 CYD 2.8" 
 |---------|-------|
 | VCC | 5V |
 | GND | GND |
-| TX | GPIO 27 |
+| TX | GPIO 35 |
 | RX | GPIO 22 |
 
 ### Switch (to change AQI calculation, press 2 second to change)
 | Switch | ESP32 |
 |--------|-------|
-| One side | GPIO 22 |
+| One side | GPIO 27 |
 | Other side | GND |
 
 ### Diagram
