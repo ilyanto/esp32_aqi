@@ -33,7 +33,7 @@ A simple **ESP32-based Air Quality Index (AQI) monitor** using **ESP32 CYD 2.8" 
 | One side | GPIO 27 |
 | Other side | GND |
 
-### Wiring
+### Diagram
 ![PMS5003](https://github.com/ilyanto/esp32_aqi/blob/main/aqi_sensor_pms5003.jpeg)
 ![SPS30](https://github.com/ilyanto/esp32_aqi/blob/main/aqi_sensor_sps30.jpeg)
 
