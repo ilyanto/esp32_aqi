@@ -34,7 +34,7 @@ A simple **ESP32-based Air Quality Index (AQI) monitor** using **ESP32 CYD 2.8" 
 | Other side | GND |
 
 ### Diagram
-![Diagram](https://github.com/ilyanto/esp32_aqi/blob/main/wiring.jpg)
+![Diagram](https://github.com/ilyanto/esp32_aqi/blob/main/aqi_sensor_pms5003.jpg)
 
 ## TFT Display
 This project uses the **TFT_eSPI** library. Configure your display driver and pin mapping inside the TFT_eSPI `User_Setup.h` (or custom setup file) before compiling. Default `User_Setup.h` at the source code is for CYD 2.8" TFT Display.
