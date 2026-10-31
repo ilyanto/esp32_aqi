@@ -14,7 +14,7 @@ A simple **ESP32-based Air Quality Index (AQI) monitor** using **ESP32 CYD 2.8" 
 | Component | Notes |
 |----------|-------|
 | ESP32 CYD 2.8" TFT Display | Use this device for seamless installation |
-| Plantower PMS5003 | UART particulate matter sensor |
+| Plantower PMS5003, Sensirion SPS30 | UART particulate matter sensor |
 | Momentary/Tack Switch | To switch AQI region (US/CN) |
 | 5V Power Supply | Or common USB power source |
 
